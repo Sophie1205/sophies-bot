@@ -8,7 +8,6 @@ Original file is located at
 """
 
 import os
-from re import A
 from flask import Flask, request, abort
 from linebot.v3 import WebhookHandler
 from linebot.v3.exceptions import InvalidSignatureError
